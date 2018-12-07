@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Quality Wood Furniture</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -37,19 +37,35 @@
           </div>
         </div>
       </header>
-      <section tabindex="0">
-        <div class="container">
-            <img class="heroImage" src={{about.img}} alt="Dining Room Table Image">
-        </div>
-      </section>
       <main>
       <div class="container">
         <div class="row">
-          <h1 class="col-sm-12 left">{{about.h1}}</h1>
-          <p class="col-sm-12">{{about.description}}</p>
+          <h1 class="col-sm-12 left headerPadding">{{contact.h1}}</h1>
+          <p class="col-sm-12">{{contact.description}}</p>
         </div>
       </div>
       </main>
+      <form>
+        <div class="container">
+          <div class="row">
+          <div class="col-lg-8 col-md-12">
+            <p>
+              <label for="name">Name</label><br>
+              <input type="text" id="name">
+            </p>
+            <p>
+              <label for="email">Email</label><br>
+              <input type="text" id="email">
+            </p>
+            <p>
+              <label for="message">Message</label><br>
+              <textarea id="message"></textarea>
+            </p>
+            <button type="submit">Submit</button>
+            </div>
+          </div>
+        </div>
+      </form>
       <footer class="footer" tabindex="0">
         <div class="container">
           <div class="row">
