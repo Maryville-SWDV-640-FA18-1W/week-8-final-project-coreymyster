@@ -11,12 +11,15 @@ $(document).ready(function() {
     navigation: [
       {
         name: "About",
+        link: "about-us.html"
       },
       {
         name: "Furniture",
+        link: "furniture.html"
       },
       {
-        name: "Contact Us"
+        name: "Contact Us",
+        link: "contact.html"
       }
     ],
     home: {
@@ -41,6 +44,11 @@ $(document).ready(function() {
       barnDoor: "img/barn-door.png",
       clock: "img/clock.png"
     },
+    about: {
+      img: "img/about-banner.png",
+      h1: "About Us",
+      description: "Our company was built on a passion for building things that were quality made. Our name says it all: 'Quality Wood Furniture'. Wood furniture built today typically uses engineered and hollow wood that can be exposed to cracking and easy wear. We use solid wood to build all types of furniture. If our clients want a new table for their dining room, new shelving for their great room, or a barn door then we can build it. We also provide the ability for clients to choose the stain or paint color of their preference. We've been building furniture for years now and take pride in every piece we build. Ultimately nothing makes us happy more than seeing our clients happy. If you're interested to learn more, or would like to plan out your piece of furniture, then we encourage you to contact us and we'll be happy to help!"
+    }
   })
   $("#target").html(rendered);
 });

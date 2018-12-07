@@ -21,7 +21,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-5 col-sm-12">
-              <img class="logo" src={{logo.primary}} alt="Quality Built Wood Furniture Logo">
+              <a href="index.html"><img class="logo" src={{logo.primary}} alt="Quality Built Wood Furniture Logo"></a>
             </div>
             <input id="toggle" type="checkbox"/>
             <label for="toggle" class="menu-open"><i class="material-icons">menu</i></label>
@@ -39,38 +39,16 @@
       </header>
       <section tabindex="0">
         <div class="container">
-            <img class="heroImage" src={{home.img}} alt="Dining Room Table Image">
+            <img class="heroImage" src={{about.img}} alt="Dining Room Table Image">
         </div>
       </section>
       <main>
       <div class="container">
         <div class="row">
-          <h1 class="col-sm-12">{{home.h1}}</h1>
-          <p class="col-sm-12">{{home.description}}</p>
+          <h1 class="col-sm-12 left">{{about.h1}}</h1>
+          <p class="col-sm-12">{{about.description}}</p>
         </div>
       </div>
-        <div class="container">
-          <div class="row testimonials">
-          {{#home.testimonials}}
-            <div class="col-md-6 col-sm-12" tabindex="0">
-              <p>{{message}}<br>- {{name}}, {{location}}</p>
-            </div>
-            {{/home.testimonials}}
-          </div>
-        </div>
-        <div class="container">
-          <div class="row furnitureHome">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-              <img src={{furnitureHome.bookshelf}} alt="Bookshelf">
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
-              <img src={{furnitureHome.barnDoor}} alt="Barn Door">
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
-              <img src={{furnitureHome.clock}} alt="Clock">
-            </div>
-          </div>
-        </div>
       </main>
       <footer class="footer" tabindex="0">
         <div class="container">
