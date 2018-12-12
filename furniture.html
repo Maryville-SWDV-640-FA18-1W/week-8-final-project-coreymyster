@@ -48,17 +48,41 @@
         <div class="row">
         <h1 class="col-sm-12 left headerPadding">Dining Room</h1>
         {{#diningRoom}}
+          {{#table}}
           <div class="col-lg-4 col-md-12">
-            <img src={{img}}><p>{{furnitureName}}</p>
+            <a href={{link}}><img src={{img}}><p>{{furnitureName}}</p></a>
           </div>
+          {{/table}}
+          {{#shelves}}
+          <div class="col-lg-4 col-md-12">
+            <a href={{link}}><img src={{img}}><p>{{furnitureName}}</p></a>
+          </div>
+          {{/shelves}}
+          {{#doors}}
+            <div class="col-lg-4 col-md-12">
+              <a href={{link}}><img src={{img}}><p>{{furnitureName}}</p></a>
+            </div>
+          {{/doors}}
         {{/diningRoom}}
         </div>
         <div class="row">
         <h1 class="col-sm-12 left headerPadding">Great Room</h1>
         {{#greatRoom}}
+          {{#clocks}}
           <div class="col-lg-4 col-md-12">
-            <img src={{img}}><p>{{furnitureName}}</p>
+            <a href={{link}}><img src={{img}}><p>{{furnitureName}}</p></a>
           </div>
+          {{/clocks}}
+          {{#bookshelves}}
+          <div class="col-lg-4 col-md-12">
+            <a href={{link}}><img src={{img}}><p>{{furnitureName}}</p></a>
+          </div>
+          {{/bookshelves}}
+          {{#tables}}
+            <div class="col-lg-4 col-md-12">
+              <a href={{link}}><img src={{img}}><p>{{furnitureName}}</p></a>
+            </div>
+          {{/tables}}
         {{/greatRoom}}
         </div>
       </div>

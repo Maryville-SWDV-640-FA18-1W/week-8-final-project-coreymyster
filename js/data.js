@@ -53,40 +53,58 @@ $(document).ready(function() {
       h1: "Contact Us",
       description: "Have a question for us, want to find out pricing information for a specific piece, or want to get in touch on your next furniture future piece? Fill out the form below and we'll be in touch!"
     },
-      greatRoom: [
-        {
-          furnitureName: "Clock",
-          img: "img/clock.png",
-          description: ""
-        },
-        {
-          furnitureName: "Bookshelf",
-          img: "img/bookshelf.png",
-          description: ""
-        },
-        {
-          furnitureName: "Display Table",
-          img: "",
-          description: ""
-        }
-      ],
-      diningRoom: [
-        {
-          furnitureName: "Dining Room Table",
-          img: "img/dining-room-table.png",
-          description: ""
-        },
-        {
-          furnitureName: "Shelves",
-          img: "img/bookshelf.png",
-          description: ""
-        },
-        {
-          furnitureName: "Barn Door",
-          img: "img/barn-door.png",
-          description: ""
-        }
-      ]
+      greatRoom: {
+        clocks: [
+          {
+            furnitureName: "Clock",
+            img: "img/clock.png",
+            description: "",
+            link: "furniture/clock.html"
+          }
+        ],
+        bookshelves: [
+          {
+            furnitureName: "Bookshelf",
+            img: "img/bookshelf.png",
+            description: "",
+            link: "furniture/bookshelf.html"
+          }
+        ],
+        tables: [
+          {
+            furnitureName: "Display Table",
+            img: "img/display-table.png",
+            description: "",
+            link: "furniture/display-table.html"
+          }
+        ]
+      },
+      diningRoom: {
+        table: [
+          {
+            furnitureName: "Dining Room Table",
+            img: "img/dining-table-square.png",
+            description: "img/dining-table-square.png",
+            link: "furniture/rustic-dining-room-table.html"
+          }
+        ],
+        shelves: [
+          {
+            furnitureName: "Shelves",
+            img: "img/kitchen-shelves.png",
+            description: "",
+            link: "furniture/kitchen-shelves.html"
+          }
+        ],
+        doors: [
+          {
+            furnitureName: "Barn Door",
+            img: "img/barn-door.png",
+            description: "",
+            link: "furniture/barn-door.html"
+          }
+        ]
+      }
   })
   $("#target").html(rendered);
 });
