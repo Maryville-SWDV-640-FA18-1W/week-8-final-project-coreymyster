@@ -52,7 +52,41 @@ $(document).ready(function() {
     contact: {
       h1: "Contact Us",
       description: "Have a question for us, want to find out pricing information for a specific piece, or want to get in touch on your next furniture future piece? Fill out the form below and we'll be in touch!"
-    }
+    },
+      greatRoom: [
+        {
+          furnitureName: "Clock",
+          img: "img/clock.png",
+          description: ""
+        },
+        {
+          furnitureName: "Bookshelf",
+          img: "img/bookshelf.png",
+          description: ""
+        },
+        {
+          furnitureName: "Display Table",
+          img: "",
+          description: ""
+        }
+      ],
+      diningRoom: [
+        {
+          furnitureName: "Dining Room Table",
+          img: "img/dining-room-table.png",
+          description: ""
+        },
+        {
+          furnitureName: "Shelves",
+          img: "img/bookshelf.png",
+          description: ""
+        },
+        {
+          furnitureName: "Barn Door",
+          img: "img/barn-door.png",
+          description: ""
+        }
+      ]
   })
   $("#target").html(rendered);
 });

@@ -40,21 +40,28 @@
       <main>
       <div class="container">
         <div class="row">
-          <h1 class="col-sm-12 left headerPadding">{{contact.h1}}</h1>
         </div>
       </div>
       </main>
       <section class="furniture">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <ul>
-              <li><img src={{furnitureHome.barnDoor}}></li>
-              <li><img src={{furnitureHome.barnDoor}}></li>
-              <li><img src={{furnitureHome.barnDoor}}></li>
-            </ul>
+        <h1 class="col-sm-12 left headerPadding">Dining Room</h1>
+        {{#diningRoom}}
+          <div class="col-lg-4 col-md-12">
+            <img src={{img}}><p>{{furnitureName}}</p>
           </div>
+        {{/diningRoom}}
         </div>
+        <div class="row">
+        <h1 class="col-sm-12 left headerPadding">Great Room</h1>
+        {{#greatRoom}}
+          <div class="col-lg-4 col-md-12">
+            <img src={{img}}><p>{{furnitureName}}</p>
+          </div>
+        {{/greatRoom}}
+        </div>
+      </div>
       </div>
       </section>
       <footer class="footer" tabindex="0">
