@@ -57,24 +57,27 @@ $(document).ready(function() {
         clocks: [
           {
             furnitureName: "Clock",
-            img: "img/clock.png",
-            description: "",
+            imgSM: "img/clock.png",
+            imgLG: "img/clock-wide.png",
+            description: "Our clocks are built to suit your room in any size, shape or color of your preferences. The clocks are built with solid 1x6 pieces of wood for a sturdy hold. Contact us today to tell us a little bit more about what you're looking for in a clock for your home, and we can provide you a free quote.",
             link: "furniture/clock.html"
           }
         ],
         bookshelves: [
           {
             furnitureName: "Bookshelf",
-            img: "img/bookshelf.png",
-            description: "",
+            imgSM: "img/bookshelf.png",
+            imgLG: "img/bookshelf-wide.png",
+            description: "Our bookshelves are built to suit your room in any size, shape or color of your preferences. The bookshelves are built with solid 1x12 and 2x2 pieces of wood for a sturdy hold. Contact us today to tell us a little bit more about what you're looking for in a bookshelf in your home, and we can provide you a free quote.",
             link: "furniture/bookshelf.html"
           }
         ],
         tables: [
           {
             furnitureName: "Display Table",
-            img: "img/display-table.png",
-            description: "",
+            imgSM: "img/display-table.png",
+            imgLG: "img/display-table-wide.png",
+            description: "Our display tables are built to suit your room in any size, shape or color of your preferences. The display tables are built with solid 1x6 and 2x4 pieces of wood for a sturdy hold. Contact us today to tell us a little bit more about what you're looking for in a display table for your home, and we can provide you a free quote.",
             link: "furniture/display-table.html"
           }
         ]
@@ -83,24 +86,27 @@ $(document).ready(function() {
         table: [
           {
             furnitureName: "Dining Room Table",
-            img: "img/dining-table-square.png",
-            description: "img/dining-table-square.png",
+            imgSM: "img/dining-table-square.png",
+            imgLG: "img/dining-room-table.png",
+            description: "Our tables are built to suit your room in any size, shape or color of your preferences. The tables are built with solid 1x4, 1x6, 2x4 and 4x4 pieces of wood for a sturdy hold. Contact us today to tell us a little bit more about what you're looking for in a table in your home, and we can provide you a free quote.",
             link: "furniture/rustic-dining-room-table.html"
           }
         ],
         shelves: [
           {
             furnitureName: "Shelves",
-            img: "img/kitchen-shelves.png",
-            description: "",
+            imgSM: "img/kitchen-shelves.png",
+            imgLG: "img/kitchen-shelves-wide.png",
+            description: "Our shelves are built to suit your room in any size, shape or color of your preferences. The shelves are built with solid 1x4 and 1x6 pieces of wood for a sturdy hold. Contact us today to tell us a little bit more about what you're looking for in shelving for your home, and we can provide you a free quote.",
             link: "furniture/kitchen-shelves.html"
           }
         ],
         doors: [
           {
             furnitureName: "Barn Door",
-            img: "img/barn-door.png",
-            description: "",
+            imgSM: "img/barn-door.png",
+            imgLG: "img/barn-door-wide.png",
+            description: "Our barn doors are built to suit your room in any size, shape or color of your preferences. The doors are built with solid 1x4, 1x6, and 1x8 pieces of wood for a sturdy hold. Contact us today to tell us a little bit more about what you're looking for in a barn door in your home, and we can provide you a free quote.",
             link: "furniture/barn-door.html"
           }
         ]
